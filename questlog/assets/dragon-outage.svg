@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#130f29"/>
+      <stop offset=".62" stop-color="#563248"/>
+      <stop offset="1" stop-color="#9c503c"/>
+    </linearGradient>
+    <radialGradient id="embers">
+      <stop stop-color="#ffac59" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#ec6342" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fire" x2="1" y2="1">
+      <stop stop-color="#ffe6a2"/>
+      <stop offset=".55" stop-color="#f5a252"/>
+      <stop offset="1" stop-color="#c74b45"/>
+    </linearGradient>
+    <path id="house" d="M0 46 53 0l56 46H98v62H12V46z"/>
+    <path id="flame" d="M0 65c-19-26 15-35 6-65 26 20 31 39 22 52 15-5 18-13 20-20 9 25-2 42-20 45C14 80 4 73 0 65z"/>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1600v900H0z"/>
+  <circle cx="1100" cy="250" r="140" fill="#dfba93" opacity=".8"/>
+  <path fill="#35263b" d="m0 560 152-115 146 77 180-171 163 142 176-88 143 137 173-128 147 102 182-144 138 149v379H0z"/>
+  <path fill="#251e31" d="M0 628q179-108 364 4t393-24q150-94 307 15t536-51v328H0z"/>
+  <ellipse cx="1215" cy="695" rx="390" ry="235" fill="url(#embers)"/>
+  <path d="M1280 675q-120-57-41-110t-80-124m240 235q-114-76-47-128t-37-115" fill="none" stroke="#493343" stroke-width="28" stroke-linecap="round" opacity=".6"/>
+  <g fill="#191725">
+    <use href="#house" transform="translate(860 692) scale(.84)"/>
+    <use href="#house" transform="translate(956 658)"/>
+    <use href="#house" transform="translate(1101 681) scale(1.1)"/>
+    <use href="#house" transform="translate(1223 641) scale(1.24)"/>
+    <use href="#house" transform="translate(1361 675)"/>
+    <use href="#house" transform="translate(1485 642) scale(1.2)"/>
+    <path d="M0 810q390-49 670 3t443-45q237-42 487 12v120H0z"/>
+  </g>
+  <g fill="url(#fire)">
+    <use href="#flame" transform="translate(1119 662) scale(.57)"/>
+    <use href="#flame" transform="translate(1240 622) scale(.85)"/>
+    <use href="#flame" transform="translate(1375 665) scale(.6)"/>
+    <path d="M1186 390q72 31 89 91t-13 139q14-94-46-150l-40-60z" opacity=".83"/>
+    <path d="M1189 395q66 47 62 117-8-56-68-105z" fill="#ffe9a9"/>
+  </g>
+  <g fill="#201729" stroke="#bd795c" stroke-width="2" stroke-linejoin="round">
+    <path d="M1018 359q-62-19-137-7-64 10-124-36 34 60 122 67 76 8 169-1l32 24 15-18-24-28z"/>
+    <path d="M1016 363q-53-28-104-79-52-49-86-123 99 27 185 97l40 57q37-116 125-172-8 77 27 112-68-8-93 55-33-13-63 54z"/>
+    <path d="M1000 365q46-53 100-49 42 3 60 37l12 18 25 9-5 18-32 6-20-14-23 5 7-18q-18-19-44-4l-20 28-24-5z"/>
+    <path d="m1155 352 3-23 14 25 19 1-8 19z"/>
+  </g>
+  <circle cx="1174" cy="377" r="3" fill="#ffcb71"/>
+  <g fill="#ffba70" opacity=".8">
+    <circle cx="1264" cy="583" r="3"/><circle cx="1323" cy="591" r="2"/><circle cx="1402" cy="645" r="3"/>
+    <circle cx="1193" cy="618" r="2"/><circle cx="1348" cy="552" r="2"/><circle cx="1257" cy="523" r="3"/>
+  </g>
+</svg>

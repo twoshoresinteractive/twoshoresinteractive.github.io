@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Questlog — Two Shores Interactive</title>
+  <meta name="description" content="A fantasy-inspired workplace quest board from Two Shores Interactive. Coming soon.">
+  <meta name="theme-color" content="#173c31">
+  <link rel="stylesheet" href="questlog.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="studio" href="../index.html"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#e6eadc"/><circle cx="36" cy="17" r="6" fill="#d8a55e"/><path d="M7 37Q16 24 24 38M40 38Q49 25 57 37" fill="none" stroke="#296467" stroke-width="4" stroke-linecap="round"/><path d="M12 46Q22 40 32 46T52 46M20 53Q32 48 44 53" fill="none" stroke="#6d9997" stroke-width="2" stroke-linecap="round"/></svg>Two Shores Interactive</a>
+  <nav aria-label="Main navigation"><a href="../index.html#apps">Apps &amp; games</a><a href="../index.html#web-apps">Web apps</a><a href="../index.html#support">Support</a></nav>
+</header>
+<main id="main">
+  <section class="hero" aria-labelledby="title">
+    <div class="hero-art" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="crest" aria-hidden="true">⚑</span> The workplace guild</p>
+        <h1 id="title">Questlog</h1>
+        <p class="hero-intro">Give your team a quest worth completing.</p>
+        <p>Turn everyday work into shared progress. Assign quests, review the results, and reward a job well done.</p>
+        <div class="actions"><a class="button gold" href="#screens">Explore the screens <span aria-hidden="true">↓</span></a></div>
+        <div class="status"><span aria-hidden="true"></span> Coming Soon</div>
+      </div>
+      <div class="hero-plaque"><span aria-hidden="true">✦</span><p>Your team.<br>Your guild.</p><small>A little fantasy for the working day.</small></div>
+    </div>
+  </section>
+  <div class="tech-strip" aria-label="Technology"><span>Built with</span><strong>Vue 3</strong><i aria-hidden="true">✦</i><strong>Node.js</strong><i aria-hidden="true">✦</i><strong>MySQL</strong></div>
+
+  <section class="section introduction">
+    <div><p class="eyebrow">A familiar workflow, a different world</p><h2>Work together.<br>Build your guild.</h2></div>
+    <div><p>Questlog brings a task board, team conversations, and recognition into one themed workspace. Members can follow their assignments and share the work. Guildmasters decide when a quest is ready to receive its reward.</p><p>The village grows through early milestones. Levels and badges keep progress visible as the guild takes on its next challenge.</p></div>
+  </section>
+
+  <section class="section workflow" aria-labelledby="workflow-title">
+    <div class="section-heading"><p class="eyebrow">From assignment to achievement</p><h2 id="workflow-title">Every reward starts with a review.</h2></div>
+    <div class="workflow-grid">
+      <article><span class="step">01</span><h3>Assign the quest</h3><p>Choose a member, describe the work, set XP and gold, and add a deadline or backlog reminder.</p></article>
+      <article><span class="step">02</span><h3>Share the work</h3><p>Start the quest, attach supporting files, and keep questions and feedback in its discussion thread.</p></article>
+      <article><span class="step">03</span><h3>Guildmaster approved</h3><p>Approve the result to award XP and gold, or return it with comments so the member can try again.</p></article>
+    </div>
+  </section>
+
+  <section class="screens-section" id="screens" aria-labelledby="screens-title">
+    <div class="section">
+      <div class="section-heading"><p class="eyebrow">A look inside the guild</p><h2 id="screens-title">Explore Questlog.</h2><p>Real application screens with sample workspace data. Select a screen to inspect it.</p></div>
+      <div class="screen-tabs" aria-label="Choose a screenshot">
+        <button type="button" aria-pressed="true" data-screen="member-01-quest-board.jpg" data-title="The member quest board" data-caption="See work move through Backlog, In progress, Review, Returned, and Completed.">Quest board</button>
+        <button type="button" aria-pressed="false" data-screen="member-quest-journal.jpg" data-title="The quest journal" data-caption="Keep the brief, attachments, and team discussion together.">Quest journal</button>
+        <button type="button" aria-pressed="false" data-screen="admin-04-review-queue.jpg" data-title="The Guildmaster review queue" data-caption="Review submitted work before awarding XP and gold.">Review queue</button>
+        <button type="button" aria-pressed="false" data-screen="member-03-achievements.jpg" data-title="Member achievements" data-caption="Discover earned badges and upcoming milestones.">Achievements</button>
+        <button type="button" aria-pressed="false" data-screen="admin-12-settings.jpg" data-title="Guild identity and level settings" data-caption="Name the keep and set a custom XP curve up to level 99.">Level settings</button>
+        <button type="button" aria-pressed="false" data-screen="admin-05-announcements.jpg" data-title="The guild noticeboard" data-caption="Post announcements for members to read and acknowledge.">Announcements</button>
+        <button type="button" aria-pressed="false" data-screen="member-04-rewards.jpg" data-title="The reward shop" data-caption="Request workplace perks and gift cards from the guild catalog.">Rewards</button>
+        <button type="button" aria-pressed="false" data-screen="admin-09-reports.jpg" data-title="Guild reports" data-caption="Review completed quests, XP, and gold, then export the user totals.">Reports</button>
+      </div>
+      <figure class="screen-frame">
+        <div class="screen-bar"><span aria-hidden="true">✦</span><span id="screen-title">The member quest board</span><a id="screen-link" href="assets/member-01-quest-board.jpg" target="_blank" rel="noopener">Full-size image <span aria-hidden="true">↗</span></a></div>
+        <a id="screen-image-link" href="assets/member-01-quest-board.jpg" target="_blank" rel="noopener"><img id="screen-image" src="assets/member-01-quest-board.jpg" alt="The member quest board in Questlog" width="1600" height="1100" loading="lazy"></a>
+        <figcaption id="screen-caption" aria-live="polite">See work move through Backlog, In progress, Review, Returned, and Completed.</figcaption>
+      </figure>
+      <noscript><p>View the <a href="assets/member-quest-journal.jpg">quest journal</a>, <a href="assets/member-03-achievements.jpg">achievements</a>, and <a href="assets/member-04-rewards.jpg">reward shop</a>.</p></noscript>
+    </div>
+  </section>
+
+  <section class="section features" aria-labelledby="features-title">
+    <div class="section-heading"><p class="eyebrow">Make the guild your own</p><h2 id="features-title">Recognition with room to grow.</h2></div>
+    <div class="feature-grid">
+      <article><span class="feature-mark" aria-hidden="true">✦</span><h3>Levels &amp; badges</h3><p>Edit XP thresholds, choose your level cap up to 99, and upload badges to mark the milestones that matter.</p></article>
+      <article><span class="feature-mark" aria-hidden="true">◈</span><h3>Gold &amp; rewards</h3><p>Build a catalog of workplace perks and gift cards. Guildmasters review requests and arrange fulfillment.</p></article>
+      <article><span class="feature-mark" aria-hidden="true">⚑</span><h3>A connected guild</h3><p>Announcements, bell notices, optional quest emails, and a discussion on each task keep the team informed.</p></article>
+      <article><span class="feature-mark" aria-hidden="true">♜</span><h3>Your own server</h3><p>Run Questlog on your own infrastructure with separate Guildmaster and member workspaces.</p></article>
+    </div>
+  </section>
+
+  <section class="dragon-section" aria-labelledby="dragon-title">
+    <div class="dragon-art" aria-hidden="true"></div>
+    <div class="section dragon-inner"><div><p class="eyebrow">Character in every corner</p><h2 id="dragon-title">Even the detours<br>have a story.</h2><p>From the castle gates to a dragon-induced database outage, Questlog’s interface carries the guild theme through the details.</p></div><div class="quote"><span aria-hidden="true">✦</span><p>“The dragon came at night.<br>No one was ready.”</p><small>Questlog’s database outage screen</small></div></div>
+  </section>
+
+  <section class="section details-section">
+    <div><p class="eyebrow">A workplace guild of your own</p><h2>Questlog at a glance.</h2><p>Assign work, bring the team together, and celebrate approved quests. A fantasy-inspired workspace with the tools to keep everyday work moving.</p></div>
+    <div class="facts"><h3>The essentials</h3><dl><div><dt>Delivery</dt><dd>Self-hosted application</dd></div><div><dt>Frontend</dt><dd>Vue 3 &amp; TypeScript</dd></div><div><dt>Server</dt><dd>Node.js &amp; Express</dd></div><div><dt>Database</dt><dd>MySQL 8.4</dd></div><div><dt>Status</dt><dd>Coming Soon</dd></div></dl></div>
+  </section>
+  <section class="section release-note"><div><p class="eyebrow">The next chapter</p><h2>Coming Soon</h2><p>A new addition to the Two Shores Interactive collection.</p></div><a class="button forest" href="mailto:twoshoresapps@gmail.com?subject=Questlog%20enquiry">Ask about Questlog</a></section>
+</main>
+<footer><span>© 2026 Two Shores Interactive</span><div><a href="../index.html#web-apps">Back to web apps</a><a href="mailto:twoshoresapps@gmail.com?subject=Questlog%20enquiry">Contact</a></div></footer>
+<script src="questlog.js" defer></script>
+</body>
+</html>
