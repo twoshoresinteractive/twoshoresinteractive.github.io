@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240">
+  <title>Little Bowl illustration</title>
+  <!-- Source: inline Little Bowl card artwork on the Two Shores Interactive homepage. -->
+  <circle cx="180" cy="116" r="105" fill="#f8efd9"/>
+  <path d="M65 112Q75 196 151 196T237 112Z" fill="#67928b"/>
+  <ellipse cx="151" cy="112" rx="86" ry="31" fill="#dca95e"/>
+  <path d="M91 109q15-16 30 0t30 0t30 0t30 0M96 121q15-16 30 0t30 0t30 0" fill="none" stroke="#f5db96" stroke-width="5"/>
+  <ellipse cx="132" cy="104" rx="20" ry="15" fill="#fff4d5"/>
+  <ellipse cx="132" cy="104" rx="9" ry="7" fill="#e6a14f"/>
+  <path d="m170 81 20-8 14 35-24 9Z" fill="#3d6454"/>
+  <g fill="#86a56a">
+  <circle cx="103" cy="113" r="4"/>
+  <circle cx="163" cy="122" r="4"/>
+  <circle cx="194" cy="110" r="4"/>
+  </g>
+  <rect x="222" y="169" width="106" height="27" rx="12" fill="#c6cec0"/>
+  <rect x="234" y="153" width="36" height="29" rx="13" fill="#fffdf3"/>
+  <path d="M232 158q17-25 40 0" fill="#dc977e" stroke="#dc977e" stroke-width="10" stroke-linecap="round"/>
+  <rect x="278" y="153" width="36" height="29" rx="13" fill="#fffdf3"/>
+  <path d="M276 158q17-25 40 0" fill="#c77469" stroke="#c77469" stroke-width="10" stroke-linecap="round"/>
+  <path d="M129 65q-11-13 0-27M158 64q-11-13 0-27" fill="none" stroke="#9eb5a6" stroke-width="3" stroke-linecap="round"/>
+  <path d="m260 42 4 10 11 3-11 4-4 11-4-11-11-4 11-3Z" fill="#d4aa61"/>
+</svg>
