@@ -23,13 +23,36 @@
         <h1 id="title">Questlog</h1>
         <p class="hero-intro">Give your team a quest worth completing.</p>
         <p>Turn everyday work into shared progress. Assign quests, review the results, and reward a job well done.</p>
-        <div class="actions"><a class="button gold" href="#screens">Explore the screens <span aria-hidden="true">↓</span></a></div>
+        <div class="actions">
+          <a class="button gold" href="#trailer"><span aria-hidden="true">▶</span> Watch the trailer</a>
+          <a class="button outline" href="#screens">Explore the screens <span aria-hidden="true">↓</span></a>
+        </div>
         <div class="status"><span aria-hidden="true"></span> Coming Soon</div>
       </div>
       <div class="hero-plaque"><span aria-hidden="true">✦</span><p>Your team.<br>Your guild.</p><small>A little fantasy for the working day.</small></div>
     </div>
   </section>
   <div class="tech-strip" aria-label="Technology"><span>Built with</span><strong>Vue 3</strong><i aria-hidden="true">✦</i><strong>Node.js</strong><i aria-hidden="true">✦</i><strong>MySQL</strong></div>
+
+  <section class="section trailer-section" id="trailer" aria-labelledby="trailer-title">
+    <div class="trailer-heading">
+      <div class="trailer-crest" aria-hidden="true"><span>▶</span></div>
+      <div>
+        <p class="eyebrow">Questlog cinematic trailer</p>
+        <h2 id="trailer-title">A new quest awaits.</h2>
+      </div>
+      <span class="trailer-runtime">30 seconds</span>
+    </div>
+    <figure class="trailer-frame">
+      <video controls playsinline preload="none" width="1920" height="1080"
+        poster="assets/questlog-trailer-poster.jpg"
+        aria-label="Questlog cinematic trailer" aria-describedby="trailer-caption">
+        <source src="assets/questlog-cinematic-trailer.mp4" type="video/mp4">
+        <p><a href="assets/questlog-cinematic-trailer.mp4">Watch the Questlog trailer as an MP4</a>.</p>
+      </video>
+      <figcaption id="trailer-caption">Enter Moonrise Keep, see the Guildmaster present a sealed quest, and follow it into the Questlog board, review queue, and achievements.</figcaption>
+    </figure>
+  </section>
 
   <section class="section introduction">
     <div><p class="eyebrow">A familiar workflow, a different world</p><h2>Work together.<br>Build your guild.</h2></div>
