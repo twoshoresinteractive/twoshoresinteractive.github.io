@@ -34,8 +34,37 @@ p { margin: 0; }
 .download:hover { background: #173858; }
 .meta, figcaption { color: var(--muted); font-size: .87rem; }
 .hero-copy > .meta { margin-top: 8px; }
-.coffee-note { max-width: 38rem; color: var(--muted); font-size: .94rem; }
-.coffee-note a { display: inline-block; margin-top: 8px; color: var(--blue); }
+.hero-copy > .coffee-card { margin-top: 24px; }
+.coffee-card {
+  padding: clamp(20px, 3vw, 26px);
+  border: 1px solid #d4b77e;
+  border-top: 4px solid var(--gold);
+  border-radius: 20px;
+  background: #f6ecd7;
+  box-shadow: 0 8px 22px rgb(112 83 36 / 7%);
+}
+.coffee-card h2 { font-size: 1.6rem; line-height: 1.2; }
+.coffee-card p { margin-top: 12px; color: #4e5d57; font-size: .96rem; }
+.coffee-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  min-height: 50px;
+  padding: 12px 16px;
+  border: 1px solid #b37e30;
+  border-radius: 999px;
+  background: #e5b35f;
+  color: #263f43;
+  font-size: .94rem;
+  font-weight: 750;
+  line-height: 1.35;
+  text-align: center;
+  text-decoration: none;
+}
+.coffee-button img { flex: 0 0 26px; }
+.coffee-button:hover { background: #edc27e; border-color: #946522; }
 figure { margin: 0; min-width: 0; }
 figure a { display: block; }
 figure img { width: 100%; height: auto; display: block; border-radius: 9px; }
