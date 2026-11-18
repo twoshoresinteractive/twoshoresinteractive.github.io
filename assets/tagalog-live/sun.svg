@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <title>Eight-rayed sun</title>
+  <!-- Original illustration inspired by the sun on the Philippine flag. -->
+  <g fill="#c58b35">
+    <circle cx="24" cy="24" r="8"/>
+    <path id="ray" d="m24 2 2.7 11.5h-5.4z"/>
+    <use href="#ray" transform="rotate(45 24 24)"/>
+    <use href="#ray" transform="rotate(90 24 24)"/>
+    <use href="#ray" transform="rotate(135 24 24)"/>
+    <use href="#ray" transform="rotate(180 24 24)"/>
+    <use href="#ray" transform="rotate(225 24 24)"/>
+    <use href="#ray" transform="rotate(270 24 24)"/>
+    <use href="#ray" transform="rotate(315 24 24)"/>
+  </g>
+</svg>

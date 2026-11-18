@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 90">
+  <title>Flag of the Philippines</title>
+  <!-- Vector drawn for the site from the Philippine flag design specified in RA 8491 and EO 23 (1936). -->
+  <defs>
+    <path id="star" d="M0-5 1.18-1.62 4.76-1.55 1.9.62 2.94 4.05 0 2-2.94 4.05-1.9.62-4.76-1.55-1.18-1.62Z"/>
+    <path id="ray" d="M-1.35-8.8-1.15-17.6 0-19 1.15-17.6 1.35-8.8ZM-2-8.7-4.05-16.4-3-17.5-1.75-8.8ZM2-8.7 4.05-16.4 3-17.5 1.75-8.8Z"/>
+  </defs>
+  <path fill="#0038a8" d="M0 0h180v45H0z"/>
+  <path fill="#ce1126" d="M0 45h180v45H0z"/>
+  <path fill="#fff" d="M0 0l77.942 45L0 90z"/>
+  <g fill="#fcd116">
+    <use href="#star" transform="translate(7.794 13.5) rotate(-30)"/>
+    <use href="#star" transform="translate(7.794 76.5) rotate(210)"/>
+    <use href="#star" transform="translate(62.354 45) rotate(90)"/>
+    <g transform="translate(25.981 45)">
+      <circle r="9"/>
+      <use href="#ray"/>
+      <use href="#ray" transform="rotate(45)"/>
+      <use href="#ray" transform="rotate(90)"/>
+      <use href="#ray" transform="rotate(135)"/>
+      <use href="#ray" transform="rotate(180)"/>
+      <use href="#ray" transform="rotate(225)"/>
+      <use href="#ray" transform="rotate(270)"/>
+      <use href="#ray" transform="rotate(315)"/>
+    </g>
+  </g>
+</svg>
