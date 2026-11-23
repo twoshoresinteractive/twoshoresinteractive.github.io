@@ -17,6 +17,7 @@ header{flex-wrap:wrap}nav{flex-wrap:wrap}
 .questlog-card .links{align-items:center}
 @media(max-width:650px){.questlog-card .art,.questlog-card .art img{min-height:230px;height:230px}}
 
+.manor-card{background:#14292e;color:#eee3c9;border-color:#9c8253;overflow:hidden}.manor-card .pill{color:#e4c17e;border-color:#9c8253}.manor-card h3{color:#f3dfad}.manor-card .button{background:#e3c17f;color:#15282c;border-radius:5px}.manor-card .art{padding:0;background:#0b1b20;overflow:hidden;min-height:300px}#apps .manor-card .art img{max-width:none;width:100%;height:340px;object-fit:cover;object-position:65% center}
 /* Decorative shoreline under the footer. The art fades into --paper. */
 body::after {
   content: "";
@@ -29,12 +30,14 @@ body::after {
 <body><header><a class="brand" href="index.html"><img src="assets/two-shores-logo.svg" width="44" height="44" alt="">Two Shores Interactive</a><nav aria-label="Main navigation"><a href="index.html#apps">Games</a><a href="index.html#web-apps">Web apps</a><a href="index.html#desktop-apps">Desktop apps</a><a href="index.html#support">Support</a></nav></header>
 <main><section class="hero"><span class="eyebrow">Independent apps &amp; games</span><h1>Two shores.<br>One little world.</h1><p class="intro">Independent apps, cozy games, and thoughtful tools. A little room for play, creativity, and a more rewarding working day.</p></section>
 <section id="apps" aria-labelledby="games-heading">
-<div class="section-heading"><h2 id="games-heading">Games</h2></div>
+<div class="section-heading"><span class="eyebrow">Made for a little escape</span><h2 id="games-heading">Games</h2></div>
 <article class="card app-card"><div><span class="pill">Android · In development</span><h3>Little Bowl</h3><p>A tiny kitchen for your heart. Arrange ramen and sushi, dress up your cat chef, and unwind to original cozy music.</p><p>Save your creations in your gallery, then feed your chef in a gentle catching game.</p><div class="links"><a href="privacy.html">Privacy policy</a><a href="mailto:twoshoresapps@gmail.com?subject=Little%20Bowl%20support">Little Bowl support</a></div></div><div class="art"><img src="assets/little-bowl-illustration.svg" width="360" height="240" alt="A bowl of ramen and sushi beneath a little star"></div></article>
+
+<article class="card app-card manor-card"><div><span class="pill">Mystery adventure · In development</span><h3>Night at Black Bridge Manor</h3><p>Four friends, a broken-down car, and a manor full of secrets. Take shelter from the storm in a spooky-comedy hidden-object adventure.</p><p>Search illustrated rooms, piece together clues, and keep your sense of humor close.</p><a class="button" href="black-bridge-manor/">Discover Black Bridge Manor</a></div><div class="art"><img src="black-bridge-manor/assets/manor.webp" width="2172" height="724" loading="lazy" alt="Four friends outside a lantern-lit manor on a stormy night"></div></article>
 </section>
 
 <section id="web-apps" aria-labelledby="web-apps-heading">
-<div class="web-apps-heading"><span class="eyebrow">Built for the browser</span><h2 id="web-apps-heading">Web apps</h2><p>Tools with a little character. Explore our self-hosted applications for teams and everyday work.</p></div>
+<div class="section-heading web-apps-heading"><span class="eyebrow">Built for the browser</span><h2 id="web-apps-heading">Web apps</h2><p>Tools with a little character. Explore our self-hosted applications for teams and everyday work.</p></div>
 <article class="card app-card questlog-card">
 <div><span class="pill">Web app · Coming Soon</span><h3>Questlog</h3>
 <p>A workplace quest board with a guild of its own. Assign tasks, review the work, and recognize your team with XP, gold, achievements, and rewards.</p>
@@ -44,7 +47,7 @@ body::after {
 </article></section>
 
 <section id="desktop-apps" aria-labelledby="desktop-apps-heading">
-<div class="section-heading"><h2 id="desktop-apps-heading">Desktop apps</h2></div>
+<div class="section-heading"><span class="eyebrow">Built for your desktop</span><h2 id="desktop-apps-heading">Desktop apps</h2></div>
 <article class="card app-card"><div><span class="pill">Windows · Tagalog to English</span><h3>Tagalog Live</h3><p>Follow Tagalog and Taglish conversations with live English subtitles. See what the app heard, read the translation, and keep a text transcript.</p><div class="links"><a class="button" href="tagalog-live/">Explore Tagalog Live <span aria-hidden="true">→</span></a></div></div><div class="art tagalog-art"><img src="assets/tagalog-live/live-captions.jpg" width="942" height="682" loading="lazy" alt="Tagalog Live showing a sample Tagalog caption and its English translation"></div></article>
 </section>
 
